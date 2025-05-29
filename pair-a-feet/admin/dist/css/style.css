@@ -1,0 +1,29 @@
+#bar_blank {
+  border: solid 1px #000;
+  height: 20px;
+  width: 100%;
+}
+
+#bar_color {
+  background-color: #006666;
+  height: 20px;
+  width: 0px;
+}
+
+#bar_blank, #hidden_iframe {
+  display: none;
+}
+
+.box {
+    padding: 10px;
+}
+.box .headingh {
+   font-size: 14px;
+    color: black;
+	background-color: #5cb85c;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding:5px;
+    text-transform: uppercase;
+	
+}
