@@ -89,9 +89,37 @@ $dbname = "your_database_name";
 
 ---
 
-## 🙌 Contributing
+📝 Notes
 
-Feel free to fork this repository, make improvements, and open a pull request!
+    🔧 Local Server Required:
+    This project uses PHP and must be run on a local server environment such as XAMPP, WAMP, or Laragon.
+
+    💾 Database Setup Needed:
+    Ensure you import the database (.sql file, if available) into phpMyAdmin, and update credentials in the /database PHP connection file.
+
+    🔐 Security Notice:
+
+        User passwords may not be hashed — please implement password_hash() and password_verify() in production.
+
+        Always validate and sanitize user inputs to prevent SQL injection and XSS.
+
+    💳 Payment Gateway:
+    Currently no real payment integration is included. Consider adding Stripe, Razorpay, or PayPal for full Ecommerce functionality.
+
+    📱 Mobile Responsiveness:
+    The site uses Bootstrap for responsiveness, but further testing on different devices is recommended.
+
+    🌐 Deployment:
+    If deploying to a live server, make sure to:
+
+        Enable HTTPS (SSL)
+
+        Configure proper file and folder permissions
+
+        Set up environment variables securely (instead of hardcoding credentials)
+
+    🧑‍💼 Admin Access:
+    The admin/ folder contains the dashboard. Make sure to secure access with proper authentication and authorization.
 
 ---
 
